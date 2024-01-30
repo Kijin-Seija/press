@@ -48,11 +48,12 @@ jobs:
       - name: Build with VitePress
         run: |
           pnpm docs:build
-          touch docs/.vitepress/dist/.nojekyll
+          pwd
+          touch .vitepress/dist/.nojekyll
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
-          path: docs/.vitepress/dist
+          path: .vitepress/dist
 
   # 部署工作
   deploy:

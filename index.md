@@ -4,17 +4,17 @@ layout: home
 
 hero:
   name: "Kijin Press"
-  text: "A VitePress Site"
-  tagline: My great project tagline
+  text: "技术与生活拾遗"
+  tagline: 小菜鸟的下克上幻想
   image:
     src: /logo.png
     alt: VitePress
   actions:
     - theme: brand
-      text: Markdown Examples
+      text: 全部文章
       link: /markdown-examples
     - theme: alt
-      text: API Examples
+      text: 他是谁?
       link: /api-examples
 
 features:
